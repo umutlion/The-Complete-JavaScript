@@ -160,7 +160,7 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 
 checkWinner(scoreDolphins, scoreKoalas);
  */
-
+/* 
 const friend1 = "Micheal";
 const friend2 = "Steven";
 const friend3 = "Peter";
@@ -204,3 +204,23 @@ console.log(friends.includes(23));
 if (friends.includes("Peter")) {
   console.log("You have a friend called Peter");
 }
+ */
+
+const jonasArray = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Micheal", "Peter", "Steven"],
+];
+
+const jonas = {
+  firstName: "Jonas",
+  lastName: "Schmedtmann",
+  age: 2037 - 1991,
+  job: "teacher",
+  friends: ["Micheal", "Peter", "Steven"],
+};
+
+console.log(jonasArray);
+console.log(jonas)
