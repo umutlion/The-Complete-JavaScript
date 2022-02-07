@@ -263,7 +263,7 @@ console.log(
   `${jonasfirstName} has ${jonas.friends.length}, and his best friend is called ${jonas.friends[0]}`
 );
  */
-
+/* 
 const jonasArray = [
   "Jonas",
   "Schemedtmann",
@@ -307,4 +307,25 @@ for (let i = 0; i < jonasArray.length; i++) {
   if (typeof jonasArray[i] === "number") break;
 
   console.log(jonasArray[i], typeof jonasArray[i]);
+}
+ */
+
+const jonasArray = [
+  "Jonas",
+  "Schmedtmann",
+  2037 - 1991,
+  "teacher",
+  ["Micheal", "Peter", "Steven"],
+  true,
+];
+
+for (let i = jonasArray.length - 1; i >= 0; i--) {
+  console.log(i, jonasArray[i]);
+}
+
+for (let exercise = 1; exercise <= 4; exercise++) {
+  console.log(`------------ Starting exercise ${exercise}`);
+  for (let rep = 1; rep < 6; rep++){
+    console.log(`Lifting weight repetition ${rep}`)
+  }
 }
